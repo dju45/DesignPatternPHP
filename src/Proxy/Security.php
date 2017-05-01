@@ -18,7 +18,7 @@ class Security
         if ($this->authenticate($password)) {
             $this->door->open();
         } else {
-            echo "Big no! It ain't possible.";
+            return "Big no! It ain't possible.";
         }
     }
 

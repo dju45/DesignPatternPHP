@@ -8,12 +8,12 @@ class LabDoor implements DoorInterface
 {
     public function open()
     {
-        echo "Opening lab door";
+        return "Opening lab door";
     }
 
     public function close()
     {
-        echo "Closing the lab door";
+        return "Closing the lab door";
     }
 }
 
