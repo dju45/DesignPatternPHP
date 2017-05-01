@@ -8,21 +8,21 @@ class IosBuilder extends Builder
 {
     public function test()
     {
-        echo 'Running ios tests';
+        return 'Running ios tests';
     }
 
     public function lint()
     {
-        echo 'Linting the ios code';
+        return 'Linting the ios code';
     }
 
     public function assemble()
     {
-        echo 'Assembling the ios build';
+        return 'Assembling the ios build';
     }
 
     public function deploy()
     {
-        echo 'Deploying ios build to server';
+        return 'Deploying ios build to server';
     }
 }

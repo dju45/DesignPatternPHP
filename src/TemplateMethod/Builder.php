@@ -4,7 +4,6 @@ namespace App\TemplateMethod;
 
 abstract class Builder
 {
-
     // Template method
     final public function build()
     {
