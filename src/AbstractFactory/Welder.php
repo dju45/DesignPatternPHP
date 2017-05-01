@@ -8,7 +8,7 @@ class Welder implements DoorFittingExpertInterface
 {
     public function getDescription()
     {
-        echo 'I can only fit iron doors';
+        return 'I can only fit iron doors';
     }
 }
 

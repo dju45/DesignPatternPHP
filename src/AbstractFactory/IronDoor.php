@@ -8,6 +8,6 @@ class IronDoor implements DoorInterface
 {
     public function getDescription()
     {
-        echo 'I am an iron door';
+        return 'I am an iron door';
     }
 }
