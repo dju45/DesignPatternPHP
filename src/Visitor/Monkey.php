@@ -9,7 +9,7 @@ class Monkey implements AnimalInterface
 {
     public function shout()
     {
-        echo 'Ooh oo aa aa!';
+        return 'Ooh oo aa aa!';
     }
 
     public function accept(AnimalOperationInterface $operation)

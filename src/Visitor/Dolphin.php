@@ -9,7 +9,7 @@ class Dolphin implements AnimalInterface
 {
     public function speak()
     {
-        echo 'Tuut tuttu tuutt!';
+        return 'Tuut tuttu tuutt!';
     }
 
     public function accept(AnimalOperationInterface $operation)

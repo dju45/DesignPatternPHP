@@ -9,7 +9,7 @@ class Lion implements AnimalInterface
 {
     public function roar()
     {
-        echo 'Roaaar!';
+        return 'Roaaar!';
     }
 
     public function accept(AnimalOperationInterface $operation)
