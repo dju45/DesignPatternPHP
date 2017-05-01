@@ -6,36 +6,36 @@ class Computer
 {
     public function getElectricShock()
     {
-        echo "Ouch!";
+        return "Ouch!";
     }
 
     public function makeSound()
     {
-        echo "Beep beep!";
+        return "Beep beep!";
     }
 
     public function showLoadingScreen()
     {
-        echo "Loading..";
+        return "Loading..";
     }
 
     public function bam()
     {
-        echo "Ready to be used!";
+        return "Ready to be used!";
     }
 
     public function closeEverything()
     {
-        echo "Bup bup bup buzzzz!";
+        return "Bup bup bup buzzzz!";
     }
 
     public function sooth()
     {
-        echo "Zzzzz";
+        return "Zzzzz";
     }
 
     public function pullCurrent()
     {
-        echo "Haaah!";
+        return "Haaah!";
     }
 }
