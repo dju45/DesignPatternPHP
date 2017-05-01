@@ -20,7 +20,7 @@ class TeaShop
     public function serve()
     {
         foreach ($this->orders as $table => $tea) {
-            echo "Serving tea to table# " . $table;
+            return "Serving tea to table# " . $table;
         }
     }
 }
