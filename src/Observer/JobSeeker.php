@@ -17,11 +17,11 @@ class JobSeeker extends AbstractObserver
     public function update(AbstractSubject $subject)
     {
         // Do something with the job posting
-        echo 'Hi ' . $this->name . '! Update job posted: '. $job->getTitle();
+        return 'Hi ' . $this->name . '! Update job posted: '. $job->getTitle();
     }
 
  	public function onJobPosted(JobPost $job)
     {
-        echo 'Hi ' . $this->name . '! New job posted: '. $job->getTitle();
+        return 'Hi ' . $this->name . '! New job posted: '. $job->getTitle();
     }
 }

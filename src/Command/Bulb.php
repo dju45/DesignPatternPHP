@@ -6,11 +6,11 @@ class Bulb
 {
     public function turnOn()
     {
-        echo "Bulb has been lit";
+        return "Bulb has been lit";
     }
 
     public function turnOff()
     {
-        echo "Darkness!";
+        return "Darkness!";
     }
 }
