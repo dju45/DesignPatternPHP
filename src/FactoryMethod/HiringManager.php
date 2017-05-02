@@ -12,6 +12,7 @@ abstract class HiringManager
     public function takeInterview()
     {
         $interviewer = $this->makeInterviewer();
-        $interviewer->askQuestions();
+
+        return $interviewer->askQuestions();
     }
 }
