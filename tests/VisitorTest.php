@@ -27,24 +27,24 @@ class VisitorTest extends TestCase
                      ->getMock();
 
         $mock1->expects($this->any())
-             ->method('accept')
-             ->with($this->identicalTo($expectedObject1));
+              ->method('accept')
+              ->with($this->identicalTo($expectedObject1));
 
         $mock2 = $this->getMockBuilder(Lion::class)
-                     ->setMethods(['accept'])
-                     ->getMock();
+                      ->setMethods(['accept'])
+                      ->getMock();
 
         $mock2->expects($this->any())
-             ->method('accept')
-             ->with($this->identicalTo($expectedObject2));
+              ->method('accept')
+              ->with($this->identicalTo($expectedObject2));
 
         $mock3 = $this->getMockBuilder(Dolphin::class)
-                     ->setMethods(['accept'])
-                     ->getMock();
+                      ->setMethods(['accept'])
+                      ->getMock();
 
         $mock3->expects($this->any())
-             ->method('accept')
-             ->with($this->identicalTo($expectedObject3));
+              ->method('accept')
+              ->with($this->identicalTo($expectedObject3));
 
     }
 }
