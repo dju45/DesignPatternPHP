@@ -13,14 +13,14 @@ class VisitorTest extends TestCase
     public function testAnimal()
     {
     	$monkey = new Monkey();
-		$lion = new Lion();
-		$dolphin = new Dolphin();
+        $lion = new Lion();
+        $dolphin = new Dolphin();
 
-		$speak = new Speak();
+        $speak = new Speak();
 
-		$expectedObject1 = $monkey->accept($speak);    // Ooh oo aa aa!
-		$expectedObject2 = $lion->accept($speak);      // Roaaar!
-		$expectedObject3 = $dolphin->accept($speak);   // Tuut tutt tuutt!
+        $expectedObject1 = $monkey->accept($speak);    // Ooh oo aa aa!
+        $expectedObject2 = $lion->accept($speak);      // Roaaar!
+        $expectedObject3 = $dolphin->accept($speak);   // Tuut tutt tuutt!
 
         $mock1 = $this->getMockBuilder(Monkey::class)
                      ->setMethods(['accept'])
