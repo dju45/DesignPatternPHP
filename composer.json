@@ -2,7 +2,10 @@
     "name": "tony133/design-pattern-php",
     "description": "Simple Examples implements Design Pattern with PHP",
     "tags": ["php","tdd","design-pattern","phpunit"],
-	"require-dev": {
+    "require": {
+        "php": "^7.0"
+    },
+    "require-dev": {
         "phpunit/phpunit": "~5.0"
     },
     "autoload": {
