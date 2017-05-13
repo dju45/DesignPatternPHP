@@ -17,11 +17,10 @@ class IteratorTest extends TestCase
 		$expectedObject3 = $stationList->addStation(new RadioStation(102));
 		$expectedObject4 = $stationList->addStation(new RadioStation(103.2));
 
+        // List Station List
 		//foreach ($stationList as $station) {
 		//	echo $station->getFrequency() . PHP_EOL;
 		//}
-
-   		$expectedObject5 = $stationList->removeStation(new RadioStation(89));
 
 		$mock = $this->getMockBuilder(StationList::class)
                      ->setMethods(['addStation'])
@@ -42,9 +41,20 @@ class IteratorTest extends TestCase
     	$mock->expects($this->any())
              ->method('addStation')
              ->with($this->identicalTo($expectedObject4));
+    }
 
-     	$mock->expects($this->any())
+    public function testRemoveStationList()
+    {
+        $stationList = new StationList();
+
+        $expectedObject = $stationList->removeStation(new RadioStation(89));
+
+        $mock = $this->getMockBuilder(StationList::class)
+                     ->setMethods(['removeStation'])
+                     ->getMock();
+
+    	$mock->expects($this->any())
              ->method('removeStation')
-             ->with($this->identicalTo($expectedObject5));
+             ->with($this->identicalTo($expectedObject));
     }
 }
