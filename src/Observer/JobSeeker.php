@@ -20,7 +20,7 @@ class JobSeeker extends AbstractObserver
         return 'Hi ' . $this->name . '! Update job posted: '. $job->getTitle();
     }
 
- 	public function onJobPosted(JobPost $job)
+    public function onJobPosted(JobPost $job)
     {
         return 'Hi ' . $this->name . '! New job posted: '. $job->getTitle();
     }
