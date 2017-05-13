@@ -1,5 +1,7 @@
 # DesignPatternPHP
 
+[![Build Status](https://travis-ci.org/Tony133/DesignPatternPHP.svg?branch=master)](https://travis-ci.org/Tony133/DesignPatternPHP)
+
 Simple Example implements Design Pattern with PHP
 
 ## Install with Composer
