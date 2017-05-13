@@ -16,10 +16,10 @@ class JobPostings extends AbstractSubject
 
     public function detach(AbstractObserver $observer)
     {
-		foreach	($this->observers as $key => $observer) {
-			unset($this->observers[$key]);
-		}
-	}
+        foreach	($this->observers as $key => $observer) {
+            unset($this->observers[$key]);
+        }
+    }
 
     public function notify(JobPost $jobPosting)
     {
