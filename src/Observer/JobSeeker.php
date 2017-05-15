@@ -16,7 +16,6 @@ class JobSeeker extends AbstractObserver
 
     public function update(AbstractSubject $subject)
     {
-        // Do something with the job posting
         return 'Hi ' . $this->name . '! Update job posted: '. $job->getTitle();
     }
 
