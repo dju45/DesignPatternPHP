@@ -62,6 +62,6 @@ class ObserverTest extends TestCase
 
         $jobPostings->attach($mock1);
         $jobPostings->attach($mock2);
-		$jobPostings->detach($mock2);
+        $jobPostings->detach($mock2);
     }
 }
