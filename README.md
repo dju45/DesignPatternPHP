@@ -13,5 +13,6 @@ Contains examples of implement for Design Pattern with PHP
 ## Getting PhpUnit
 
 ```
-	$ ./vendor/bin/phpunit
+    $ cp phpunit.xml.dist phpunit.xml
+    $ ./vendor/bin/phpunit
 ```
