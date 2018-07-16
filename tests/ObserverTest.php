@@ -31,6 +31,8 @@ class ObserverTest extends TestCase
         $mock->expects($this->any(1))->method('update');
 
         $jobPostings->attach($mock);
+
+        $this->assertTrue(true);
     }
 
     public function testObserverRemoveListenersMethod()

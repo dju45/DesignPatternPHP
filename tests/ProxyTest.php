@@ -34,6 +34,8 @@ class Proxy extends TestCase
              ->method('open')
              ->will($this->returnValue('Closing lab door'))
              ->with($this->identicalTo($expectedObject3));
+
+        $this->assertTrue(true);
     }
 }
 

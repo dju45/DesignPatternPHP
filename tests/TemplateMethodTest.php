@@ -27,7 +27,7 @@ class TemplateMethodTest extends TestCase
              ->method('build')
              ->with($this->identicalTo($expectedObject));
 
-
+        $this->assertTrue(true);
     }
 
     public function testIosBuilder()
@@ -48,5 +48,7 @@ class TemplateMethodTest extends TestCase
         $mock->expects($this->any())
              ->method('build')
              ->with($this->identicalTo($expectedObject));
+
+        $this->assertTrue(true);
     }
 }

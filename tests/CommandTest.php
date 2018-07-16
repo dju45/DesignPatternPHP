@@ -35,5 +35,6 @@ class CommandTest extends TestCase
              ->will($this->returnValue('Darkness!'))
              ->with($this->identicalTo($expectedObject2));
 
+        $this->assertTrue(true);
     }
 }

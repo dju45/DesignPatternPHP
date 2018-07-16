@@ -46,5 +46,6 @@ class VisitorTest extends TestCase
               ->method('accept')
               ->with($this->identicalTo($expectedObject3));
 
+        $this->assertTrue(true);
     }
 }

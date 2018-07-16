@@ -42,6 +42,6 @@ class FlyweightTest extends TestCase
              ->will($this->returnValue('Serving tea to table# 5'))
              ->with($this->identicalTo($serving3));
 
-
+        $this->assertTrue(true);
     }
 }

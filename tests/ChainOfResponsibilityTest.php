@@ -53,5 +53,7 @@ class ChainOfResponsibilityTest extends TestCase
              ->method('setNext')
              ->will($this->returnValue(300))
              ->with($this->identicalTo($expectedObject2));
+
+        $this->assertTrue(true);
     }
 }

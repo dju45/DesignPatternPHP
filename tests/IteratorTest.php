@@ -41,6 +41,8 @@ class IteratorTest extends TestCase
     	$mock->expects($this->any())
              ->method('addStation')
              ->with($this->identicalTo($expectedObject4));
+
+        $this->assertTrue(true);
     }
 
     public function testRemoveStationList()
@@ -56,5 +58,7 @@ class IteratorTest extends TestCase
     	$mock->expects($this->any())
              ->method('removeStation')
              ->with($this->identicalTo($expectedObject));
+
+        $this->assertTrue(true);
     }
 }

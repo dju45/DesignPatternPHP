@@ -24,5 +24,7 @@ class AdapterTest extends TestCase
         $mock->expects($this->any())
               ->method('hunt')
               ->with($this->identicalTo($wildDogAdapter));
+
+        $this->assertTrue(true);
     }
 }

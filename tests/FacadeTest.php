@@ -33,5 +33,7 @@ class FacadeTest extends TestCase
               ->method('turnOff')
               ->will($this->returnValue('Bup bup buzzz! Haah! Zzzzz'))
               ->with($this->identicalTo($facade2));
+
+        $this->assertTrue(true);
     }
 }
