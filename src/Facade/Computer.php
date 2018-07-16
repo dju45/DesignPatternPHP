@@ -4,37 +4,37 @@ namespace App\Facade;
 
 class Computer
 {
-    public function getElectricShock()
+    public function getElectricShock(): string
     {
         return "Ouch!";
     }
 
-    public function makeSound()
+    public function makeSound(): string
     {
         return "Beep beep!";
     }
 
-    public function showLoadingScreen()
+    public function showLoadingScreen(): string
     {
         return "Loading..";
     }
 
-    public function bam()
+    public function bam(): string
     {
         return "Ready to be used!";
     }
 
-    public function closeEverything()
+    public function closeEverything(): string
     {
         return "Bup bup bup buzzzz!";
     }
 
-    public function sooth()
+    public function sooth(): string
     {
         return "Zzzzz";
     }
 
-    public function pullCurrent()
+    public function pullCurrent(): string
     {
         return "Haaah!";
     }

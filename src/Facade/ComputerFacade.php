@@ -13,7 +13,7 @@ class ComputerFacade
         $this->computer = $computer;
     }
 
-    public function turnOn()
+    public function turnOn(): void
     {
         $this->computer->getElectricShock();
         $this->computer->makeSound();
@@ -21,7 +21,7 @@ class ComputerFacade
         $this->computer->bam();
     }
 
-    public function turnOff()
+    public function turnOff(): void
     {
         $this->computer->closeEverything();
         $this->computer->pullCurrent();
