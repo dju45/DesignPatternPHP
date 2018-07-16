@@ -3,7 +3,7 @@
     "description": "Contains examples of implement for Design Pattern with PHP",
     "tags": ["php","tdd","design-pattern","phpunit"],
     "require": {
-        "php": "^7.0"
+        "php": "^7.1"
     },
     "require-dev": {
         "phpunit/phpunit": "~6.0"
