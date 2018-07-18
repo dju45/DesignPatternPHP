@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/Tony133/DesignPatternPHP.svg?branch=master)](https://travis-ci.org/Tony133/DesignPatternPHP)
 
-Contains examples of implement for Design Pattern with PHP 
+Contains examples of implement for Design Pattern with PHP 7
 
 ## Install with Composer
 
