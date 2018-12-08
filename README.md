@@ -14,5 +14,5 @@ Contains examples of implement for Design Pattern with PHP 7
 
 ```
     $ cp phpunit.xml.dist phpunit.xml
-    $ ./vendor/bin/phpunit
+    $ ./vendor/bin/phpunit or phpunit
 ```
