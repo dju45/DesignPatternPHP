@@ -5,7 +5,7 @@ namespace App\TemplateMethod;
 abstract class Builder
 {
     // Template method
-    final public function build()
+    public function build()
     {
         $this->test();
         $this->lint();
