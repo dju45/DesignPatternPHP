@@ -8,7 +8,7 @@ Contains examples of implement for Design Pattern with PHP 7
 
 ```
     $ curl -s http://getcomposer.org/installer | php
-    $ php composer.phar install or composer install
+    $ php composer install
 ```
 ## Getting PhpUnit
 
